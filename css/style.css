@@ -72,6 +72,10 @@ body {
   color: var(--ungu);
 }
 
+#menu {
+  display: none;
+}
+
 .navbar .navbar-nav a::after {
   content: "";
   display: block;
@@ -357,7 +361,7 @@ footer .credit a {
     font-size: 62.5%;
   }
 
-  .menu-order {
+  #menu {
     display: inline-block;
   }
 
